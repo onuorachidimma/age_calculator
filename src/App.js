@@ -1,10 +1,9 @@
-
 import './App.css';
 import AgeCalculator from './components/ageCalculator';
 
 function App() {
   return (
-    <div className="text-4xl font-bold text-blue-600">
+    <div className="flex justify-center items-center h-screen">
       <AgeCalculator />
     </div>
   );
